@@ -1,67 +1,116 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
 }
 
 li,
 a,
 button {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 .logo {
-  cursor: pointer;
-  width: 300px;
+    cursor: pointer;
+    width: 300px;
 }
 
 nav {
-  margin-right: 20px;
+    margin-right: 20px;
 }
+
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
 }
 
 button {
-  padding: 9px 25px;
-  background-color: rgb(255, 255, 0, 1);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+    background-image: linear-gradient(180deg, #F8D12F 0%, #F0B90B 100%);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 
 button:hover {
-  background-color: rgb(0, 0, 0, 0.8);
-  color: yellow;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
 }
 
 .container {
-  width: 1000px;
-  height: 500px;
-  background-color: yellow;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  margin: auto;
-  top: 150px;
-  left: 50px;
-  position: relative;
-  color: yellow;
-  border-radius: 15px;
-  text-align: center;
-  padding-top: 50px;
+    width: 500px;
+    height: 500px;
+    background-image: radial-gradient(circle, #f8d12f, #f6cb28, #f4c520, #f2bf17, #f0b90b);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin: auto;
+    top: 150px;
+    left: 140px;
+    position: relative;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 150px;
+    float: left;
+}
+
+.child {
+    width: 500px;
+    height: 500px;
+    background-image: radial-gradient(circle, #f8d12f, #f6cb28, #f4c520, #f2bf17, #f0b90b);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin: auto;
+    top: 150px;
+    left: -140px;
+    position: relative;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 50px;
+    float: right;
+}
+
+.child_1 {
+    width: 500px;
+    height: 500px;
+    background-image: radial-gradient(circle, #f8d12f, #f6cb28, #f4c520, #f2bf17, #f0b90b);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin: auto;
+    top: 220px;
+    left: 140px;
+    position: relative;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 50px;
+    float: left;
+}
+
+.child_2 {
+    width: 500px;
+    height: 500px;
+    background-image: radial-gradient(circle, #f8d12f, #f6cb28, #f4c520, #f2bf17, #f0b90b);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin: auto;
+    top: 220px;
+    left: -140px;
+    position: relative;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 50px;
+    float: right;
 }
 
 .cont_text {
-  background: yellow;
-  color: black;
+    background-color: transparent;
+    color: white;
 }
